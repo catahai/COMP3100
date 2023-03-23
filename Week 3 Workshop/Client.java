@@ -4,9 +4,9 @@ import java.net.*;
 public class Client {
     public static void main(String[] args) {
         int port = 50000;
-        String ip = "127.0.0.1";
+        String address = "127.0.0.1";
         try (
-            Socket socket = new Socket(ip, port);
+            Socket socket = new Socket(address, port);
             OutputStream out = socket.getOutputStream();
             BufferedReader in = new BufferedReader(new InputStreamReader(socket.getInputStream()))) {
 

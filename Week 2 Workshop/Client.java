@@ -15,7 +15,8 @@ public class Client {
 
             // Sends "HELO" to the server
             out.write(("HELO\n").getBytes());
-
+            System.out.println("Client says 'HELO'");
+            
             // Reads a line of text from the server
             String word = in.readLine();
             System.out.println("Server responds with: " + word);

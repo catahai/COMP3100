@@ -81,7 +81,7 @@ public class Client {
                             out.flush();
 
                             // Schedule the job
-                            String[] jobScheduler = message.split("\\s+");
+                            String[] jobScheduler = jobMessage.split("\\s+");
                             out.write(("SCHD " + jobScheduler[2] + " " + largestType + " 0\n").getBytes());
                             out.flush();
                             message = in.readLine();

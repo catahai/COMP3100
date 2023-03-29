@@ -18,8 +18,8 @@ new directory will be COMP3100/ds-sim
 
 ## Ensure that the files are executable, the `ds-client` and `ds-server`
 
-chmod -x ds-client
-chmod -x ds-server
+`chmod -x ds-client`
+`chmod -x ds-server`
 ---
 
 ## How to run the simulation

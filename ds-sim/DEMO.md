@@ -6,7 +6,7 @@
 Requires git
 
 Installing git:
-sudo apt-get install git
+`sudo apt-get install git`
 
 ## Clone this github repo COMP3100
 installing the ds-sim files (if necessary. It also requires git commands)
@@ -14,13 +14,13 @@ cd COMP3100
 git clone https://github.com/distsys-MQ/ds-sim/git
 new directory will be COMP3100/ds-sim
 
----
-
 ## Ensure that the files are executable, the `ds-client` and `ds-server`
+
 
 `chmod -x ds-client`
 `chmod -x ds-server`
----
+
+
 
 ## How to run the simulation
 

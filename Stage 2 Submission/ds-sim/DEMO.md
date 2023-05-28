@@ -65,5 +65,7 @@ running the server through ip: 127.0.0.1 and port: 50000
 
 ## Installing Python3 
 
+`$sudo apt install python3 python3-tk python3-pip`
+
 
 

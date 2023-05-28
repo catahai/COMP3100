@@ -78,7 +78,7 @@ public class Client {
                             servers.put(type, cores);
                         }
                     }
-
+                    // Sends OK request to server
                     out.write(("OK\n").getBytes());
                     out.flush();
                     System.out.println("Server has responded with: " + in.readLine()); // Receive .

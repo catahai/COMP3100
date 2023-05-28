@@ -4,8 +4,7 @@ import java.util.*;
 
 public class Client {
     public static void main(String[] args) throws Exception {
-
-
+        
         try (
 
             // Initialising a server socket and creating a connection to the server.

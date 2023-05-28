@@ -4,7 +4,7 @@ import java.net.*;
 public class Client {
     public static void main(String[] args) {
         try (
-            //Initialise server socket and connection to server
+            //Initialising the server socket and connection to server
             Socket socket = new Socket("127.0.0.1", 50000);
             OutputStream out = socket.getOutputStream();
             BufferedReader in = new BufferedReader(new InputStreamReader(socket.getInputStream()))

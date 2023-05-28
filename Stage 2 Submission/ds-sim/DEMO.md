@@ -1,5 +1,5 @@
 
-# Demo!
+# Demo for Stage 2 Assignment
 
 `sudo apt update`
 `sudo apt upgrade`
@@ -59,4 +59,8 @@ running the server through ip: 127.0.0.1 and port: 50000
 `$ ds-server -c ds-config01.xml -n -v brief`
 
 `$ java Client.java
+
+## Otherwise to run the S2TestScript we can write it under through python3
+./s2_test.py "java Client" -n -r results/ref_results.json
+
 

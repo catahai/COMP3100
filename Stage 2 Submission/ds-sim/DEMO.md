@@ -34,7 +34,7 @@ if using M1 Mac, the pre-compiled folder will need to be ran under the aarch64 f
 
 2. Run server `$ ds-server -c ds-sample-config.xml -n -v brief`
 -n: creates a new line character ('\n') at the end of each messages made by server and client
--v: (verbose) meaning (verbose mode0, which will output some details about the full runtime of the server
+-v: (verbose) meaning verbose mode, which will output some details about the full runtime of the server
 brief: meaning it will show us basic outputs during the full runtime of the server
 
 2. Compile the java program `Client.java`

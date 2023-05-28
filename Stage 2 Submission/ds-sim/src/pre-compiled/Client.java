@@ -85,7 +85,7 @@ public class Client {
                     // Sends OK request to the server
                     out.write(("OK\n").getBytes());
                     out.flush();
-                    in.readLine(); // .
+                    in.readLine(); 
 
                     // Uses best fit for the allocated server if available
                     if (!BFServer.equals("")) {

@@ -44,7 +44,7 @@ if not, the follow command is needed to install java
 
 `sudo apt install default-jre default-jdk`
 
-Now we can compile the program using (ensuring that the java program is in the right folder, pre-compiled or aarch64
+Now we can compile the program using ensuring that the java program is in the right folder, pre-compiled or aarch64
 javac Client.java
 
 or run it through the shell script provided by the examinor

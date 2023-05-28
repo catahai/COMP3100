@@ -4,9 +4,8 @@ import java.util.*;
 
 public class Client {
     public static void main(String[] args) throws Exception {
-        
-        try (
 
+        try (
             // Initialising a server socket and creating a connection to the server.
             Socket socket = new Socket("127.0.0.1", 50000);
             BufferedReader in = new BufferedReader(new InputStreamReader(socket.getInputStream()));

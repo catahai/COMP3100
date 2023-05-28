@@ -46,9 +46,8 @@ if not, the follow command is needed to install java
 
 Now we can compile the program using (ensuring that the java program is in the right folder, pre-compiled or aarch64
 javac Client.java
-which will generate a 
-or run it through
-the shell script provided by the examinor
+
+or run it through the shell script provided by the examinor
 
 ## If simulation is not working 
  - ensure all packages are installed properly

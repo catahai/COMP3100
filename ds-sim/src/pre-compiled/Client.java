@@ -18,7 +18,7 @@ public class Client {
             // Reads the message from the server.
             System.out.println("Server has responded with: " + in.readLine());
 
-            // Gets the username of the current user
+            // Gets the username of the current user or uses a random username
             String username = System.getProperty("user.name");
 
             if (username == null) {

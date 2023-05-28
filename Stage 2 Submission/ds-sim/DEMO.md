@@ -63,4 +63,7 @@ running the server through ip: 127.0.0.1 and port: 50000
 ## Otherwise to run the S2TestScript we can write it under through python3
 ./s2_test.py "java Client" -n -r results/ref_results.json
 
+## installing Python3 
+
+
 

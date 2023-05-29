@@ -67,6 +67,7 @@ running the server through ip: 127.0.0.1 and port: 50000
 
 
 # Running the script
+```
 python3 ./s2_test.py "java MyClient" -n -c S2TestConfigs
 ```
 

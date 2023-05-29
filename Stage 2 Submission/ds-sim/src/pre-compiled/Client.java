@@ -93,18 +93,20 @@ public class Client {
                         out.flush();
                         System.out.println("Server: " + in.readLine());
                     // Otherwise we use the first fit algorithm to handle te job handling
-                    } else if (!FFServer.equals("")) {
+                    } 
+                    if (!FFServer.equals("")) {
                         out.write(("SCHD " + jobMessage[2] + " " + FFServer + " " + ffID + "\n").getBytes());
                         out.flush();
                         System.out.println("Server: " + in.readLine());
                     // Otherwise we use the first capable algorithm to handle te job handling
-                    } else if (!FCType.equals("")) {
+                    } 
+                    if (!FCType.equals("")) {
                         out.write(("SCHD " + jobMessage[2] + " " + FCType + " " + fcID + "\n").getBytes());
                         out.flush();
                         System.out.println("Server: " + in.readLine());
                     // Otherwise we terminate the process if all jobs are successfully completed or finds a job that is not suitable
                     } else {
-                        System.out.println("No suitable server found for job " + jobMessage[2]);
+                        System.out.println("No job can be completed given this server" + jobMessage[2]);
                         break;
                     }
                 }
@@ -112,7 +114,7 @@ public class Client {
             // Sends the QUIT message to the server to terminate and quit the process
             out.write(("QUIT\n").getBytes());
             out.flush();
-            System.out.println("Server: " + in.readLine());
+            System.out.println("Server has responded with: " + in.readLine());
 
 
         } catch (IOException e) {
